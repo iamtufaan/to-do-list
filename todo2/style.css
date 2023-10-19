@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      margin: 30px auto;
+      background: green;
+      width: 500px;
+      border-radius: 20px;
+      padding: 30px;
+}
+input{
+      font-size: 20px;
+      height: 40px;
+      border-radius: 50px;
+      text-align: center;
+      margin: 30px;
+}
+#button{
+      font-size: 2rem;
+      padding: 10px;
+      border-radius: 50px;
+      border: none;
+}
+li{
+      font-size: 19px;
+      border: 2px solid red;
+      padding: 5px;
+      margin: 3px;
+      color: white;
+}
+.delete{
+      margin:0 10px ;
+      padding: 6px;
+      border-radius: 6px;
+      border: none;
+      font-size: 16px;
+}
